@@ -18,9 +18,6 @@ def get_task_data() -> str:
     """
     input_data = sys.stdin.readlines()
 
-    with open("/Users/pztrn/TEMP/abracadabra", "w") as f:
-        f.write(input_data[-1])
-
     return input_data[-1]
 
 
